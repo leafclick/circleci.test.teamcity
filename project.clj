@@ -1,4 +1,4 @@
-(defproject com.leafclick/circleci.test.teamcity "0.1.0-SNAPSHOT"
+(defproject com.leafclick/circleci.test.teamcity "0.1.0"
   :description "A Teamcity reporter for circleci.test runner"
   :url "http://github.com/leafclick/circleci.test.teamcity"
   :license {:name "Eclipse Public License"

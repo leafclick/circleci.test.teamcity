@@ -4,15 +4,13 @@ Teamcity test reporter for [circleci.test](https://github.com/circleci/circleci.
 
 ## Usage
 
-Add `[circleci/circleci.test "0.3.1"]` to your `:dependencies` under `:dev` profile.
-Add `[com.leafclick/circleci.test.teamcity "0.1.0-SNAPSHOT]` to your `:dependencies` under `:teamcity` profile
+Add `[circleci/circleci.test "0.4.0"]` to your `:dependencies` under `:dev` profile.
+Add `[com.leafclick/circleci.test.teamcity "0.1.0]` to your `:dependencies` under `:teamcity` profile
 
 Put following contents into `dev-resources/circleci.test/config.cjl`:
 
     (require '[com.leafclick.circleci.test.teamcity])
-    
-    {:test-results-dir "target/test-results"
-     :reporters [com.leafclick.circleci.test.teamcity/teamcity-reporter]}
+    {:reporters [com.leafclick.circleci.test.teamcity/teamcity-reporter]}
 
 It's recommended to use this set of Leiningen aliases:
 
