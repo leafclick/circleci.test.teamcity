@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. This change
 ## [Unreleased]
  
 
-## 0.1.0 - 2018-01-17
+## v0.1.0 - 2018-01-17
 
 - Initial version of Teamcity test reporter for [circleci.test](https://github.com/circleci/circleci.test) runner
 
