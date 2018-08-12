@@ -53,7 +53,7 @@
                                                     (stack/print-cause-trace actual test/*stack-trace-depth*))
                                                   (pr-str actual)))
                                               "'"))
-                    "]"))))
+                    "']"))))
 
   (summary [this m]
     (test/with-test-out

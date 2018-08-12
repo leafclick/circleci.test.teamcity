@@ -44,6 +44,7 @@
             "##teamcity[testStarted name='one-error.core-test/ (an-erroring-test) (:)' captureStandardOutput='true']"]
            (take 2 messages)))
     (is (str/starts-with? (nth messages 2) "##teamcity[testFailed name='one-error.core-test/ (an-erroring-test) (core_test.clj:6)' message='Uncaught exception, not in assertion.' details='Uncaught exception, not in assertion.|nexpected=|'nil|'|nactual=|'java.lang.Exception: ERROR|n at one_error.core_test/fn (core_test.clj:6)|n"))
+    (is (str/ends-with? (nth messages 2) "clojure.main.main (main.java:37)|n|'']"))
     (is (= "##teamcity[testSuiteFinished name='one-error.core-test']" (last messages)))))
 
 (deftest report-test-check-all-passing
