@@ -4,8 +4,8 @@ Teamcity test reporter for [circleci.test](https://github.com/circleci/circleci.
 
 ## Usage
 
-Add `[circleci/circleci.test "0.4.0"]` to your `:dependencies` under `:dev` profile.
-Add `[com.leafclick/circleci.test.teamcity "0.1.0"]` to your `:dependencies` under `:teamcity` profile
+Add `[circleci/circleci.test "0.4.1"]` to your `:dependencies` under `:dev` profile.
+Add `[com.leafclick/circleci.test.teamcity "0.2.0"]` to your `:dependencies` under `:teamcity` profile
 
 Put following contents into `dev-resources/circleci.test/config.cjl`:
 
